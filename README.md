@@ -617,6 +617,18 @@ Follow this 3-step script to demo the complete decentralized materials economy o
 
 ---
 
+## Academic Final Project Reports
+
+For final-year engineering evaluation and academic viva, complete verified technical documentation is available in [\docs/reports/\](docs/reports/):
+
+| Document | Markdown Version | Microsoft Word (.docx) | Scope & Evaluation Evidence |
+|---|---|---|---|
+| **Testing & Validation Report** | [\Testing_and_Validation_Report.md\](docs/reports/Testing_and_Validation_Report.md) | [\Testing_and_Validation_Report.docx\](docs/reports/Testing_and_Validation_Report.docx) | 49/49 PyTest test suite passing; full module verification matrix across Authentication, AI Discovery, IPFS, and Smart Contracts. |
+| **Performance Analysis & Result Report** | [\Performance_Analysis_and_Result_Report.md\](docs/reports/Performance_Analysis_and_Result_Report.md) | [\Performance_Analysis_and_Result_Report.docx\](docs/reports/Performance_Analysis_and_Result_Report.docx) | Empirical hardware benchmarks; 5-stage funnel attrition analysis (200 candidates -> 75 geometry -> 9 hull -> 0 consensus; 2.24s Mg2Si demo); model spread. |
+| **Deployment Report & User Manual** | [\Deployment_Report_and_User_Manual.md\](docs/reports/Deployment_Report_and_User_Manual.md) | [\Deployment_Report_and_User_Manual.docx\](docs/reports/Deployment_Report_and_User_Manual.docx) | Complete step-by-step installation instructions; environment variable manifests; startup order; UI walkthrough (3D Lattice, IPFS Hub, Marketplace). |
+
+---
+
 ## Local Environment Cleanup & Reset
 
 To reset all local databases, blockchain state, and IPFS caches to a clean state:
@@ -663,5 +675,4 @@ git commit -m "feat: implement secure IPFS access control, AES-256 encryption, a
 git push origin main
 ```
 *(If your default branch is `master`, use `git push origin master` instead).*
-#   2 0 2 6 - 2 7 - B E - 0 3 6  
- 
+# 2026-27-BE-036

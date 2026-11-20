@@ -1,0 +1,67 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# TypeScript / Vite build cache
+*.tsbuildinfo
+frontend/tsconfig.app.tsbuildinfo
+frontend/tsconfig.node.tsbuildinfo
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Blockchain artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/deployments/
+
+# Local database and stores
+backend/data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Runtime-generated data and logs
+matchain_ipfs_store.json
+matchain_local_store.json
+matchain_ledger.json
+backend/backend/
+
+# Developer scratch workspace
+scratch/
